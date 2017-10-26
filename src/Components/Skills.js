@@ -23,7 +23,7 @@ class Skills extends React.Component {
               { skills.backEnd.map((skill) => { return <Skill key={skill.skillName} skill={skill.skillName} imageUrl={skill.imageUrl}/>}) }
             </div>
             <div className="Experienced">
-              <h3 className="skills-title">Experienced</h3>
+              <h3 className="skills-title">General</h3>
               { skills.experienced.map((skill) => { return <Skill key={skill.skillName} skill={skill.skillName} imageUrl={skill.imageUrl}/>}) }
             </div>
           </div>

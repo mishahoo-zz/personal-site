@@ -53,17 +53,29 @@ const skillData = {
       imageUrl: "http://mherman.org/images/mocha-chaijs.png"
     },
     {
-      skillName: 'Heroku',
-      imageUrl: "https://a.slack-edge.com/bfaba/img/api/hosting_heroku.png"
+      skillName: 'Photoshop',
+      imageUrl: "https://cdn.iconverticons.com/files/png/3c02af24436268c7_256x256.png"
     },
     {
-      skillName: 'Digital Ocean',
-      imageUrl: "https://www.digitalocean.com/assets/media/logos-badges/png/DO_Logo_icon_blue-6edd7377.png"
+      skillName: 'Illustrator',
+      imageUrl: "http://th.seaicons.com/wp-content/uploads/2015/11/Illustrator-3-icon.png"
     },
     {
-      skillName: 'AWS',
-      imageUrl: "http://www.cyberphoton.com/wp-content/uploads/2016/02/aws-logo.png"
+      skillName: 'InDesign',
+      imageUrl: "https://www.prepressure.com/images/indesign-logo-exploding.png"
     }
+    // {
+    //   skillName: 'Heroku',
+    //   imageUrl: "https://a.slack-edge.com/bfaba/img/api/hosting_heroku.png"
+    // },
+    // {
+    //   skillName: 'Digital Ocean',
+    //   imageUrl: "https://www.digitalocean.com/assets/media/logos-badges/png/DO_Logo_icon_blue-6edd7377.png"
+    // },
+    // {
+    //   skillName: 'AWS',
+    //   imageUrl: "http://www.cyberphoton.com/wp-content/uploads/2016/02/aws-logo.png"
+    // }
   ]
 }
 
