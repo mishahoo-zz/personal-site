@@ -1,6 +1,7 @@
 import React from 'react';
-import Work from './Work.js'
+import Skills from './Skills.js'
 import Projects from './Projects.js'
+import skills from './data/skillData.js';
 
 class Main extends React.Component {
   constructor(props) {
@@ -37,7 +38,7 @@ class Main extends React.Component {
           </div>
           <div className="line"></div>
         </div>
-        <Work />
+        <Skills skills={skills}/>
         <Projects />
         <div id="last"></div>
         <div id="footer"></div>
