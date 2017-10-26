@@ -12,6 +12,7 @@ class Skills extends React.Component {
     return (
       <div>
         <div className="image-block fixed-background">
+          <h1 id="skills-header">skills</h1>
           <div id="skills">
             <div className="front-end-skills">
               <h3 className="skills-title">Front-End</h3>

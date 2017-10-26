@@ -40,7 +40,7 @@ const skillData = {
     },
     {
       skillName: 'Webpack',
-      imageUrl: "https://webpack.js.org/6bc5d8cf78d442a984e70195db059b69.svg"
+      imageUrl: "https://frontendmasters.com/assets/webpack.png"
     }
   ],
   experienced: [
@@ -51,10 +51,6 @@ const skillData = {
     {
       skillName: 'TDD (mocha/chai)',
       imageUrl: "http://mherman.org/images/mocha-chaijs.png"
-    },
-    {
-      skillName: 'DEPLOYMENT',
-      imageUrl: null
     },
     {
       skillName: 'Heroku',

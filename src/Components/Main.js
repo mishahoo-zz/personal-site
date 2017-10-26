@@ -11,6 +11,11 @@ class Main extends React.Component {
   render() {
     return (
       <div>
+        <div className="top-icons">
+          <img src="http://www.cashpoint.com.au/wp-content/uploads/2014/06/linkedin.png" />
+          <img src="http://www.iconsfind.com/wp-content/uploads/2013/11/20131104_5277047941700.png" />
+          <img src="https://seeklogo.com/images/I/instagram-logo-98138B5E5A-seeklogo.com.png" />
+        </div>
         <div id="top-main">
           <h1 id="name">misha hoo</h1>
           <div id="self-photo">
@@ -40,8 +45,18 @@ class Main extends React.Component {
         </div>
         <Skills skills={skills}/>
         <Projects />
-        <div id="last"></div>
-        <div id="footer"></div>
+        <div id="last">
+          <h3 className="contact-headline">Contact Me!</h3>
+          <img src="http://www.cashpoint.com.au/wp-content/uploads/2014/06/linkedin.png" width="65px"/>
+          <img src="http://www.iconsfind.com/wp-content/uploads/2013/11/20131104_5277047941700.png" width="65px"/>
+          <img src="https://seeklogo.com/images/I/instagram-logo-98138B5E5A-seeklogo.com.png" width="65px"/>
+          <div className="contact-text">
+            {/* <div>Misha Hoo</div> */}
+            <a href="mailto:hoomisha@gmail.com" id="email">hoomisha@gmail.com</a>
+          </div>
+        </div>
+        <div className="bar"></div>
+        <div id="footer">Misha Hoo © 2017</div>
       </div>
     )
   }

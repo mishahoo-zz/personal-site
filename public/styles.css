@@ -24,6 +24,17 @@ body {
   margin-bottom: 25px;
 }
 
+.top-icons {
+  /*position: absolute;*/
+  float: right;
+  margin: 1.5em 5em 0em 0em;
+}
+
+.top-icons > * {
+  margin: 0em .5em;
+  width: 30px;
+}
+
 .about-info {
   /*display: inline-block;*/
   float: left;
@@ -148,9 +159,17 @@ body {
 }
 
 .image-block {
-  padding: 5em;
+  padding: 1em 6em 5em 6em;
   background-image: url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/842884/1160/772/m1/fpnw/wm1/cm_o-.jpg?1449822069&s=f863b0c4f9e6ee2493d99b174f5e2224");
   /*height: 500px;*/
+}
+
+#skills-header {
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 49px;
+  font-style: italic;
+  color: #fff;
 }
 
 #skills {
@@ -176,16 +195,50 @@ body {
 }
 
 #last {
-  background-color: #f9ac88;
-  height: 250px;
+  /*color: #fff;*/
+  background-color: #e3fcea;
+  text-align: center;
+  padding: 1em 0em 2em 0em;
+  /*height: 250px;*/
+  font-size: 22px;
+  /*color: white;*/
 }
+
+#last > img {
+  margin: .5em 1em 1.5em 1em;
+}
+
+.contact-headline {
+  font-size: 35px;
+  font-style: italic;
+}
+
+#email {
+  color: #3d3a39;
+  font-style: italic;
+}
+
+/*.contact-text > * {
+  margin: .5em;
+  font-size: 19px;
+}*/
 
 #footer {
   height: 75px;
-  background-color: #3a3f3e;
+  /*background-color: #e3fcea;*/
+  background-image: url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/842884/1160/772/m1/fpnw/wm1/cm_o-.jpg?1449822069&s=f863b0c4f9e6ee2493d99b174f5e2224");
+  color: #fff;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: right;
+  padding: 1.5em;
+  letter-spacing: 1.5px;
 }
 
-
+.bar {
+  height: 5px;
+  background-color: #79f7cf;
+}
 
 
 /********************************************
@@ -628,13 +681,14 @@ width: 100%; }
 }
 
 .skills-title {
-  font-size: 26px;
+  font-size: 27px;
 }
 
 .skill-div > * {
   margin: .25em .25em;
   vertical-align: middle;
-  font-size: 19px;
+  align-items: center;
+  font-size: 20px;
   /*font-weight: bold;*/
   /*margin-bottom: 2em;*/
   display: inline-block;

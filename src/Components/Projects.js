@@ -13,7 +13,7 @@ class Projects extends React.Component {
         showThumbs={false}
         showArrows={true}
         showIndicators={false}
-        // autoPlay={true}
+        autoPlay={true}
         infiniteLoop={true}
       >
         <div className="carousel-box">
