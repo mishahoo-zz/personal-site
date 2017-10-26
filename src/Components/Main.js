@@ -12,9 +12,15 @@ class Main extends React.Component {
     return (
       <div>
         <div className="top-icons">
-          <img src="http://www.cashpoint.com.au/wp-content/uploads/2014/06/linkedin.png" />
-          <img src="http://www.iconsfind.com/wp-content/uploads/2013/11/20131104_5277047941700.png" />
-          <img src="https://seeklogo.com/images/I/instagram-logo-98138B5E5A-seeklogo.com.png" />
+          <a href="https://www.linkedin.com/in/mishahoo/">
+            <img className="overlay-two small-icons" src="http://www.cashpoint.com.au/wp-content/uploads/2014/06/linkedin.png" />
+          </a>
+          <a href="https://github.com/mishahoo">
+            <img className="overlay-two small-icons" src="http://iconshow.me/media/images/social/simple-icons/png/512/github.png" />
+          </a>
+          <a href="https://www.instagram.com/misha_hoo/">
+            <img className="overlay-two small-icons" src="https://seeklogo.com/images/I/instagram-logo-98138B5E5A-seeklogo.com.png" />
+          </a>
         </div>
         <div id="top-main">
           <h1 id="name">misha hoo</h1>
@@ -47,9 +53,15 @@ class Main extends React.Component {
         <Projects />
         <div id="last">
           <h3 className="contact-headline">Contact Me!</h3>
-          <img src="http://www.cashpoint.com.au/wp-content/uploads/2014/06/linkedin.png" width="65px"/>
-          <img src="http://www.iconsfind.com/wp-content/uploads/2013/11/20131104_5277047941700.png" width="65px"/>
-          <img src="https://seeklogo.com/images/I/instagram-logo-98138B5E5A-seeklogo.com.png" width="65px"/>
+          <a href="https://www.linkedin.com/in/mishahoo/">
+            <img className="overlay icons" src="http://www.cashpoint.com.au/wp-content/uploads/2014/06/linkedin.png" width="65px"/>
+          </a>
+          <a href="https://github.com/mishahoo">
+            <img className="overlay icons" src="http://iconshow.me/media/images/social/simple-icons/png/512/github.png" width="65px" />
+          </a>
+          <a href="https://www.instagram.com/misha_hoo/">
+            <img className="overlay icons" src="https://seeklogo.com/images/I/instagram-logo-98138B5E5A-seeklogo.com.png" width="65px"/>
+          </a>
           <div className="contact-text">
             {/* <div>Misha Hoo</div> */}
             <a href="mailto:hoomisha@gmail.com" id="email">hoomisha@gmail.com</a>
