@@ -646,7 +646,7 @@ width: 100%; }
   /*margin-left: 4em;*/
   /*margin-right:2em;*/
   /*align-items: center;*/
-  max-width: 500px;
+  max-width: 600px;
   width: 100%;
   margin-bottom: 2em;
 }
@@ -656,7 +656,7 @@ width: 100%; }
 }
 
 .project-description {
-  font-size: 22px;
+  font-size: 19px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -671,7 +671,7 @@ width: 100%; }
 }
 
 .project-title {
-  font-size: 40px;
+  font-size: 28px;
   margin-bottom: .5em;
 }
 
@@ -688,7 +688,7 @@ width: 100%; }
   }
 
   .project-gif {
-    min-width: 400px !important;
+    min-width: 600px !important;
     margin: 3em auto !important;
     margin-left: 5em !important;
     /*align-items: center;*/

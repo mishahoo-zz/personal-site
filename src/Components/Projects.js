@@ -21,7 +21,7 @@ class Projects extends React.Component {
             <div className="carousel-box">
               <div className="project-info">
                 <div className="project-gif">
-                  <img className="project-gif-image"src="https://media1.giphy.com/avatars/100soft/WahNEDdlGjRZ.gif"></img>
+                  <img className="project-gif-image"src="./assets/sharemykitchen.png"></img>
                 </div>
                 <div className="project-description">
                   <h3 className="project-title" >Brainstorm</h3>
@@ -41,7 +41,7 @@ class Projects extends React.Component {
             <div className="carousel-box">
               <div className="project-info">
                 <div className="project-gif">
-                  <img className="project-gif-image"src="https://media1.giphy.com/avatars/100soft/WahNEDdlGjRZ.gif"></img>
+                  <img className="project-gif-image"src="./assets/sharemykitchen.png"></img>
                 </div>
                 <div className="project-description">
                   <h3 className="project-title" >Brainstorm</h3>
@@ -61,7 +61,7 @@ class Projects extends React.Component {
             <div className="carousel-box">
               <div className="project-info">
                 <div className="project-gif">
-                  <img className="project-gif-image"src="https://media1.giphy.com/avatars/100soft/WahNEDdlGjRZ.gif"></img>
+                  <img className="project-gif-image"src="./assets/sharemykitchen.png"></img>
                 </div>
                 <div className="project-description">
                   <h3 className="project-title" >Brainstorm</h3>

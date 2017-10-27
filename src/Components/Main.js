@@ -62,6 +62,9 @@ class Main extends React.Component {
           <a href="https://www.instagram.com/misha_hoo/">
             <img className="overlay icons" src="https://seeklogo.com/images/I/instagram-logo-98138B5E5A-seeklogo.com.png" width="65px"/>
           </a>
+          <a href="https://www.instagram.com/misha_hoo/">
+            <img className="overlay icons" src="./assets/document-icon-68868 copy.png" height="65px"/>
+          </a>
           <div className="contact-text">
             {/* <div>Misha Hoo</div> */}
             <a href="mailto:hoomisha@gmail.com" id="email">hoomisha@gmail.com</a>
