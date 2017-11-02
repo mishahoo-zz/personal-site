@@ -15,7 +15,7 @@ class Projects extends React.Component {
           showThumbs={false}
           showArrows={true}
           showIndicators={false}
-          autoPlay={true}
+          // autoPlay={true}
           infiniteLoop={true}
           >
             <div className="carousel-box">
@@ -73,6 +73,9 @@ class Projects extends React.Component {
                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur.
                   </p>
+                  <a className="fork-it" href="https://github.com/mishahoo/sharemykitchen">
+                    <img src="https://greasyfork.org/forum/uploads/thumbnails/FileUpload/df/f87899bf1034cd4933c374b02eb5ac.png" alt="fork it" />
+                  </a>
                 </div>
               </div>
               {/* <img src="./assets/background2.jpg"></img> */}

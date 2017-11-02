@@ -161,7 +161,7 @@ body {
 
 .image-block {
   padding: 1em 6em 5em 6em;
-  background-image: url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/842884/1160/772/m1/fpnw/wm1/cm_o-.jpg?1449822069&s=f863b0c4f9e6ee2493d99b174f5e2224");
+  background-image: url("./assets/tropicalprint.jpg");
   /*height: 500px;*/
 }
 
@@ -238,7 +238,8 @@ body {
   text-align: center;
   padding: 1em 0em 2em 0em;
   /*height: 250px;*/
-  font-size: 22px;
+  font-size: 20px;
+  letter-spacing: 2px;
   /*color: white;*/
 }
 
@@ -269,7 +270,7 @@ body {
 #footer {
   height: 75px;
   /*background-color: #e3fcea;*/
-  background-image: url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/842884/1160/772/m1/fpnw/wm1/cm_o-.jpg?1449822069&s=f863b0c4f9e6ee2493d99b174f5e2224");
+  background-image: url("./assets/tropicalprint.jpg");
   color: #fff;
   font-size: 21px;
   font-weight: bold;
@@ -677,11 +678,16 @@ width: 100%; }
 
 .project-text {
   text-align: left;
-  margin-left: 2.5em;
-  margin-right: 2em;
+  margin-left: 3em;
+  margin-right: 2.5em;
 }
 
-@media (min-width: 1050px) {
+.fork-it {
+  width: 50px;
+  margin: auto;
+}
+
+@media (min-width: 1095px) {
   .project-info {
     flex-direction: row !important;
     margin-bottom: 0 !important;
@@ -705,6 +711,11 @@ width: 100%; }
 
   .project-text {
     margin-left: 0 !important;
+  }
+
+  .fork-it {
+    width: 50px;
+    margin: 10px 0 0 0;
   }
 }
 
