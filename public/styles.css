@@ -47,7 +47,7 @@ body {
   /*float: left;*/
   /*max-width: 800px;*/
   width: 100%;
-  /*margin-left: 100px;*/
+  margin-right: 70px;
   /*background-color: pink;*/
 }
 
@@ -715,6 +715,7 @@ width: 100%; }
 .fork-it {
   width: 50px;
   margin: auto;
+  margin-top: 10px;
 }
 
 @media (min-width: 1095px) {
@@ -777,4 +778,10 @@ width: 100%; }
   /*margin-bottom: 2em;*/
   display: inline-block;
  /*align-items: center;*/
+}
+
+@media (max-width: 950px) {
+  #skills {
+    flex-direction: column !important;
+  }
 }
