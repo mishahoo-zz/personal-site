@@ -54,16 +54,16 @@ class Main extends React.Component {
         <div id="last">
           <h3 className="contact-headline">Contact Me!</h3>
           <a href="https://www.linkedin.com/in/mishahoo/">
-            <img className="overlay icons" src="http://www.cashpoint.com.au/wp-content/uploads/2014/06/linkedin.png" width="65px"/>
+            <img className="overlay icons" src="http://www.cashpoint.com.au/wp-content/uploads/2014/06/linkedin.png" width="45px"/>
           </a>
           <a href="https://github.com/mishahoo">
-            <img className="overlay icons" src="http://iconshow.me/media/images/social/simple-icons/png/512/github.png" width="65px" />
+            <img className="overlay icons" src="http://iconshow.me/media/images/social/simple-icons/png/512/github.png" width="45px" />
           </a>
           <a href="https://www.instagram.com/misha_hoo/">
-            <img className="overlay icons" src="https://seeklogo.com/images/I/instagram-logo-98138B5E5A-seeklogo.com.png" width="65px"/>
+            <img className="overlay icons" src="https://seeklogo.com/images/I/instagram-logo-98138B5E5A-seeklogo.com.png" width="45px"/>
           </a>
           <a href="https://www.instagram.com/misha_hoo/">
-            <img className="overlay icons" src="./assets/document-icon-68868 copy.png" height="65px"/>
+            <img className="overlay icons" src="./assets/document-icon-68868 copy.png" height="45px"/>
           </a>
           <div className="contact-text">
             {/* <div>Misha Hoo</div> */}
