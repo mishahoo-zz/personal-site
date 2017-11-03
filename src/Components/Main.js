@@ -24,8 +24,9 @@ class Main extends React.Component {
         </div>
         <div id="top-main">
           <h1 id="name">misha hoo</h1>
-          <div id="self-photo">
-          </div>
+          {/* <div id="self-photo">
+          </div> */}
+          <img id="self-photo" src="./assets/self.png"></img>
           {/* <div id="ani-wrapper">
             <div id="inner">
               <div id="animate">

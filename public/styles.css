@@ -5,10 +5,13 @@ body {
 }
 
 #top-main {
+  display: flex;
+  flex-direction: row;
   margin: 50px;
   margin-top: 100px;
   padding: 50px;
   background-color: #e3fcea;
+  /*clear: both;*/
   /*height: 300px;*/
   /*overflow: auto;*/
 }
@@ -16,18 +19,21 @@ body {
 #self-photo {
   width: 250px;
   height: 250px;
-  background-image: url("./self.png");
-  background-size: contain;
+  min-width: 250px;
+  /*background-image: url("./self.png");*/
+  /*background-size: contain;*/
   /*display: inline-block;*/
-  float: left;
+  /*float: left;*/
   margin-right: 75px;
-  margin-bottom: 25px;
+  /*margin-bottom: 25px;*/
 }
 
 .top-icons {
-  /*position: absolute;*/
-  float: right;
-  margin: 1.5em 5em 0em 0em;
+  /*float: right;*/
+  position: absolute;
+  right: 5em;
+  /*margin: 1.5em 5em 0em 0em;*/
+  margin-top: 1.5em;
 }
 
 .small-icons {
@@ -38,7 +44,7 @@ body {
 
 .about-info {
   /*display: inline-block;*/
-  float: left;
+  /*float: left;*/
   max-width: 800px;
   width: 100%;
   /*margin-left: 100px;*/
