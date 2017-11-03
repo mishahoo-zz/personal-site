@@ -47,8 +47,8 @@ class Main extends React.Component {
               pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
               culpa qui officia deserunt mollit anim id est laborum
             </p>
+            <div className="line"></div>
           </div>
-          <div className="line"></div>
         </div>
         <Skills skills={skills}/>
         <Projects />

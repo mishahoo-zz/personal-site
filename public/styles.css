@@ -24,7 +24,7 @@ body {
   /*background-size: contain;*/
   /*display: inline-block;*/
   /*float: left;*/
-  margin-right: 75px;
+  margin-right: 50px;
   /*margin-bottom: 25px;*/
 }
 
@@ -45,11 +45,13 @@ body {
 .about-info {
   /*display: inline-block;*/
   /*float: left;*/
-  max-width: 800px;
+  /*max-width: 800px;*/
   width: 100%;
   /*margin-left: 100px;*/
   /*background-color: pink;*/
 }
+
+
 
 #name {
   color: #e8c8ab;
@@ -66,6 +68,27 @@ body {
   font-size: 35px;
   font-style: italic;
   color: #3d3a39;
+  max-width: 455px;
+  /*margin-right: auto;*/
+}
+
+@media (max-width: 950px) {
+  #top-main {
+    flex-direction: column;
+  }
+
+  #self-photo {
+    width: 100%;
+    height: 100%;
+    max-width: 350px;
+    min-width: 150px;
+    margin: auto;
+  }
+
+  #title {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ FADE UP ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -113,7 +136,7 @@ body {
 }
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SLIDE UP ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+/*
 @keyframes slidingText{
   0%{
     transform:translateY(400px);
@@ -147,7 +170,7 @@ body {
   animation-fill-mode:both;
   animation-delay: -0.5s;
   /* animation-iteration-count:infinite; */
-}
+}*/
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -162,6 +185,7 @@ body {
   height: 5px;
   background-color: #fcf571;
   clear: both;
+  margin-top: 35px;
   /*display: inline-block;*/
 }
 
